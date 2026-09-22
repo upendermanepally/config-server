@@ -10,7 +10,8 @@ spring:
         git:
           uri: https://github.com/upendermanepally/config-server.git
           clone-on-start: true
-
+fav:
+  num: 7
 #eureka:
 #  client:
 #    service-url:
