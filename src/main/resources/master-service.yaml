@@ -1,3 +1,5 @@
+fav:
+  num: 7
 #eureka:
 #  client:
 #    service-url:
