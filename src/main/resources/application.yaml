@@ -9,8 +9,11 @@ spring:
       server:
         git:
           uri: https://github.com/upendermanepally/config-server.git
-          clone-on-start: true
           default-label: master
+          clone-on-start: true
+          #force-pull: true
+
+#commenting as it comes by default with eureka client dependency
 #eureka:
 #  client:
 #    service-url:
